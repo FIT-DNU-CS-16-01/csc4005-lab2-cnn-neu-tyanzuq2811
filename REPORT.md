@@ -260,7 +260,7 @@ Các run trên W&B:
 | resnet18_finetune | [View run](https://wandb.ai/models-dai-nam-university/csc4005-lab2-neu-cnn/runs/jt6rcds0) |
 | mobilenet_finetune | [View run](https://wandb.ai/models-dai-nam-university/csc4005-lab2-neu-cnn/runs/jo3jrhux) |
 
-*(Sinh viên chụp ảnh dashboard W&B và đính kèm tại đây)*
+![W&B Dashboard — So sánh 4 runs](outputs/wandb_dashboard.png)
 
 ---
 
