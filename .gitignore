@@ -1,9 +1,9 @@
 .venv/
 __pycache__/
 *.pyc
-outputs/*
-!outputs/.gitkeep
+outputs/**/*.pt
 NEU-CLS_extracted/
 .wandb/
 wandb/
 .tmp_ci_data/
+NEU-CLS.zip

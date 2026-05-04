@@ -1,0 +1,123 @@
+{
+  "model_name": "resnet18",
+  "train_mode": "transfer",
+  "best_val_loss": 0.15062667970304136,
+  "best_val_acc": 0.9666666666666667,
+  "test_loss": 0.15673052999708387,
+  "test_acc": 0.9629629629629629,
+  "avg_epoch_time_sec": 9.30987,
+  "total_params": 11179590,
+  "trainable_params": 3078,
+  "class_names": [
+    "Crazing",
+    "Inclusion",
+    "Patches",
+    "Pitted_Surface",
+    "Rolled-in_Scale",
+    "Scratches"
+  ],
+  "classification_report": {
+    "Crazing": {
+      "precision": 1.0,
+      "recall": 0.9555555555555556,
+      "f1-score": 0.9772727272727273,
+      "support": 45.0
+    },
+    "Inclusion": {
+      "precision": 0.9743589743589743,
+      "recall": 0.8444444444444444,
+      "f1-score": 0.9047619047619048,
+      "support": 45.0
+    },
+    "Patches": {
+      "precision": 0.9574468085106383,
+      "recall": 1.0,
+      "f1-score": 0.9782608695652174,
+      "support": 45.0
+    },
+    "Pitted_Surface": {
+      "precision": 0.9,
+      "recall": 1.0,
+      "f1-score": 0.9473684210526315,
+      "support": 45.0
+    },
+    "Rolled-in_Scale": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 45.0
+    },
+    "Scratches": {
+      "precision": 0.9565217391304348,
+      "recall": 0.9777777777777777,
+      "f1-score": 0.967032967032967,
+      "support": 45.0
+    },
+    "accuracy": 0.9629629629629629,
+    "macro avg": {
+      "precision": 0.9647212536666746,
+      "recall": 0.9629629629629629,
+      "f1-score": 0.9624494816142413,
+      "support": 270.0
+    },
+    "weighted avg": {
+      "precision": 0.9647212536666746,
+      "recall": 0.9629629629629629,
+      "f1-score": 0.9624494816142414,
+      "support": 270.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      43,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      38,
+      0,
+      5,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      45,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      45,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      45,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      44
+    ]
+  ],
+  "resolved_data_dir": "NEU-CLS_extracted",
+  "normalization": "imagenet",
+  "num_channels": 3
+}
